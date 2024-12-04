@@ -6,9 +6,9 @@ Exercise 1: Define an empty array
 Exercise 1 has been completed for you:
 */
 
-//const foods = [];  
-//foods.unshift('pizza', 'cheeseburger');
-//console.log('Exercise 1 result:', foods);
+const foods = [];  
+foods.unshift('pizza', 'cheeseburger');
+console.log('Exercise 1 result:', foods);
 
 
 /*
@@ -19,11 +19,11 @@ Exercise 3: Insert at the beginning
 Complete Exercise 3 in the space below:
 */
 
-// let foods = ['pizza', 'cheeseburger'];
+let foods = ['pizza', 'cheeseburger'];
 
-// foods.unshift('taco');
+foods.unshift('taco');
 
-// console.log('Exercise 3 result:', foods);
+console.log('Exercise 3 result:', foods);
 
 
 /*
@@ -37,11 +37,11 @@ Exercise 4: Access an array element
 Complete Exercise 4 in the space below:
 */
 
-// let foods = ['taco', 'pizza', 'cheeseburger'];
+let foods = ['taco', 'pizza', 'cheeseburger'];
 
-// let favFood = foods[1];
+let favFood = foods[1];
 
-// console.log('Exercise 4 result:', favFood);
+console.log('Exercise 4 result:', favFood);
 
 /*
 Exercise 5: Insert an element between two others
@@ -50,11 +50,11 @@ Exercise 5: Insert an element between two others
 
 Complete Exercise 5 in the space below:
 */
-// let foods = ['taco', 'pizza', 'cheeseburger'];
+let foods = ['taco', 'pizza', 'cheeseburger'];
 
-// foods.splice(2, 0, 'tofu');
+foods.splice(2, 0, 'tofu');
 
-// console.log('Exercise 5 result:', foods);
+console.log('Exercise 5 result:', foods);
 
 
 /*
@@ -64,11 +64,11 @@ Exercise 6: Replace elements
 
 Complete Exercise 6 in the space below:
 */
-// let foods = ['taco', 'pizza', 'cheeseburger'];
+let foods = ['taco', 'pizza', 'cheeseburger'];
 
-// foods.splice(1, 1, 'sushi', 'cupcake');
+foods.splice(1, 1, 'sushi', 'cupcake');
 
-// console.log('Exercise 6 result:', foods);
+console.log('Exercise 6 result:', foods);
 
 
 /*
@@ -82,11 +82,11 @@ Exercise 8: Finding an index
 Complete Exercise 8 in the space below:
 */
 
-// let foods = ['taco', 'tofu' ,'pizza', 'cheeseburger'];
+let foods = ['taco', 'tofu' ,'pizza', 'cheeseburger'];
 
-// let soyIdx = foods.indexOf('tofu');
+let soyIdx = foods.indexOf('tofu');
 
-// console.log('Exercise 8 result:', soyIdx);
+console.log('Exercise 8 result:', soyIdx);
 
 
 /*
@@ -102,12 +102,12 @@ Note: The final result should log as:
 
 Complete Exercise 9 in the space below:
 */
-// let foods = ['taco', 'tofu' ,'pizza', 'cheeseburger'];
+let foods = ['taco', 'tofu' ,'pizza', 'cheeseburger'];
 
-// let allFoods = foods.join(' -> ');
+let allFoods = foods.join(' -> ');
 
 
-// console.log('Exercise 9 result:', allFoods);
+console.log('Exercise 9 result:', allFoods);
 
 
 /*
@@ -120,11 +120,11 @@ Exercise 10: Check for an element
 
 Complete Exercise 10 in the space below:
 */
-// let foods = ['taco', 'tofu' ,'pizza', 'cheeseburger'];
+let foods = ['taco', 'tofu' ,'pizza', 'cheeseburger'];
 
-// hasSoup = foods.includes('soup');
+hasSoup = foods.includes('soup');
 
-// console.log('Exercise 10 result:', hasSoup);
+console.log('Exercise 10 result:', hasSoup);
 
 
 
@@ -140,16 +140,16 @@ Hint: Initialize the `odds` variable to an empty array before the iteration.
 Complete Exercise 11 in the space below:
 */
 
-// const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
-// let odds = [];
+let odds = [];
 
-// for (let i = 0; i < nums.length; i++) {
+for (let i = 0; i < nums.length; i++) {
  
-//     if (nums[i] % 2 !== 0){
-//         odds.push(nums[i]);
-//     }
-// }
+    if (nums[i] % 2 !== 0){
+        odds.push(nums[i]);
+    }
+}
 
 
 
